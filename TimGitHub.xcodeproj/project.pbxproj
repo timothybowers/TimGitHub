@@ -7,12 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C5F9ECB2320BD9900D41736 /* RepoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5F9ECA2320BD9900D41736 /* RepoListViewController.swift */; };
+		1C5F9ECD2320BFD600D41736 /* RepoListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C5F9ECC2320BFD600D41736 /* RepoListViewController.xib */; };
+		1C5F9ECF2320C5B900D41736 /* RepoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5F9ECE2320C5B900D41736 /* RepoListViewModel.swift */; };
+		1C5F9ED12320DB2800D41736 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5F9ED02320DB2800D41736 /* User.swift */; };
+		1C5F9ED3232104F100D41736 /* Repo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5F9ED2232104F100D41736 /* Repo.swift */; };
+		1C5F9ED52321102A00D41736 /* RepoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5F9ED42321102A00D41736 /* RepoTableViewCell.swift */; };
 		1CBA3C75231E569400050C5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBA3C74231E569400050C5E /* AppDelegate.swift */; };
 		1CBA3C77231E569400050C5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBA3C76231E569400050C5E /* ViewController.swift */; };
 		1CBA3C7A231E569400050C5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CBA3C78231E569400050C5E /* Main.storyboard */; };
 		1CBA3C7C231E569600050C5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CBA3C7B231E569600050C5E /* Assets.xcassets */; };
 		1CBA3C7F231E569600050C5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CBA3C7D231E569600050C5E /* LaunchScreen.storyboard */; };
 		1CBA3C8A231E569600050C5E /* TimGitHubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBA3C89231E569600050C5E /* TimGitHubTests.swift */; };
+		1CBA3C99231E603500050C5E /* OAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBA3C98231E603500050C5E /* OAuthService.swift */; };
+		1CBA3C9C231E6BD300050C5E /* NetworkSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBA3C9B231E6BD300050C5E /* NetworkSession.swift */; };
+		1CBA3C9F23208A7000050C5E /* OAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBA3C9E23208A7000050C5E /* OAuth.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +35,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C5F9ECA2320BD9900D41736 /* RepoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoListViewController.swift; sourceTree = "<group>"; };
+		1C5F9ECC2320BFD600D41736 /* RepoListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RepoListViewController.xib; sourceTree = "<group>"; };
+		1C5F9ECE2320C5B900D41736 /* RepoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoListViewModel.swift; sourceTree = "<group>"; };
+		1C5F9ED02320DB2800D41736 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		1C5F9ED2232104F100D41736 /* Repo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repo.swift; sourceTree = "<group>"; };
+		1C5F9ED42321102A00D41736 /* RepoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoTableViewCell.swift; sourceTree = "<group>"; };
 		1CBA3C71231E569400050C5E /* TimGitHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimGitHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CBA3C74231E569400050C5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CBA3C76231E569400050C5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +51,9 @@
 		1CBA3C85231E569600050C5E /* TimGitHubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimGitHubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CBA3C89231E569600050C5E /* TimGitHubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimGitHubTests.swift; sourceTree = "<group>"; };
 		1CBA3C8B231E569600050C5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CBA3C98231E603500050C5E /* OAuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OAuthService.swift; sourceTree = "<group>"; };
+		1CBA3C9B231E6BD300050C5E /* NetworkSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkSession.swift; sourceTree = "<group>"; };
+		1CBA3C9E23208A7000050C5E /* OAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OAuth.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +74,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C5F9EC82320BD6200D41736 /* UserFeatures */ = {
+			isa = PBXGroup;
+			children = (
+				1C5F9EC92320BD8400D41736 /* RepoList */,
+			);
+			path = UserFeatures;
+			sourceTree = "<group>";
+		};
+		1C5F9EC92320BD8400D41736 /* RepoList */ = {
+			isa = PBXGroup;
+			children = (
+				1C5F9ECA2320BD9900D41736 /* RepoListViewController.swift */,
+				1C5F9ECC2320BFD600D41736 /* RepoListViewController.xib */,
+				1C5F9ECE2320C5B900D41736 /* RepoListViewModel.swift */,
+				1C5F9ED42321102A00D41736 /* RepoTableViewCell.swift */,
+			);
+			path = RepoList;
+			sourceTree = "<group>";
+		};
 		1CBA3C68231E569400050C5E = {
 			isa = PBXGroup;
 			children = (
 				1CBA3C73231E569400050C5E /* TimGitHub */,
 				1CBA3C88231E569600050C5E /* TimGitHubTests */,
 				1CBA3C72231E569400050C5E /* Products */,
+				7008B6C79B9C0CC6699D1EFF /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,6 +115,10 @@
 		1CBA3C73231E569400050C5E /* TimGitHub */ = {
 			isa = PBXGroup;
 			children = (
+				1C5F9EC82320BD6200D41736 /* UserFeatures */,
+				1CBA3C9D23208A4000050C5E /* Models */,
+				1CBA3C9A231E6BC600050C5E /* Network */,
+				1CBA3C97231E602200050C5E /* Services */,
 				1CBA3C74231E569400050C5E /* AppDelegate.swift */,
 				1CBA3C76231E569400050C5E /* ViewController.swift */,
 				1CBA3C78231E569400050C5E /* Main.storyboard */,
@@ -94,6 +136,39 @@
 				1CBA3C8B231E569600050C5E /* Info.plist */,
 			);
 			path = TimGitHubTests;
+			sourceTree = "<group>";
+		};
+		1CBA3C97231E602200050C5E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1CBA3C98231E603500050C5E /* OAuthService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1CBA3C9A231E6BC600050C5E /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				1CBA3C9B231E6BD300050C5E /* NetworkSession.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		1CBA3C9D23208A4000050C5E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1CBA3C9E23208A7000050C5E /* OAuth.swift */,
+				1C5F9ED02320DB2800D41736 /* User.swift */,
+				1C5F9ED2232104F100D41736 /* Repo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7008B6C79B9C0CC6699D1EFF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +252,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C5F9ECD2320BFD600D41736 /* RepoListViewController.xib in Resources */,
 				1CBA3C7F231E569600050C5E /* LaunchScreen.storyboard in Resources */,
 				1CBA3C7C231E569600050C5E /* Assets.xcassets in Resources */,
 				1CBA3C7A231E569400050C5E /* Main.storyboard in Resources */,
@@ -197,7 +273,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CBA3C99231E603500050C5E /* OAuthService.swift in Sources */,
+				1CBA3C9C231E6BD300050C5E /* NetworkSession.swift in Sources */,
 				1CBA3C77231E569400050C5E /* ViewController.swift in Sources */,
+				1C5F9ED52321102A00D41736 /* RepoTableViewCell.swift in Sources */,
+				1C5F9ED3232104F100D41736 /* Repo.swift in Sources */,
+				1C5F9ECF2320C5B900D41736 /* RepoListViewModel.swift in Sources */,
+				1C5F9ED12320DB2800D41736 /* User.swift in Sources */,
+				1CBA3C9F23208A7000050C5E /* OAuth.swift in Sources */,
+				1C5F9ECB2320BD9900D41736 /* RepoListViewController.swift in Sources */,
 				1CBA3C75231E569400050C5E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
